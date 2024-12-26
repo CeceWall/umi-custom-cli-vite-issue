@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "author": "GUO weijian <weijian.guo@hexagon.com>",
+  "scripts": {
+    "dev": "node cli/index.js dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "umi": "^4.4.2",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@umijs/preset-vue": "^4.4.2",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.0.3"
+  }
+}
